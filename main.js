@@ -6,6 +6,7 @@ const empty = document.querySelector(".empty");
 addBtn.addEventListener("click", (e)=>{
 
     e.preventDefault();
+    
     const text = input.value;
 
     if(text !== ""){
@@ -19,7 +20,7 @@ addBtn.addEventListener("click", (e)=>{
         ul.appendChild(li)
 
         input.value= "";
-        empty.style.display = "none"
+        empty.style.display = "none";
 
     }
 
